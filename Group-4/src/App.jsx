@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import MCO from "./Pages/MCO/MCO"
-import Activity1 from "./Pages/activity1/Home"
 import Activity2 from "./Pages/activity2/Moodswing"
 import Activity3 from "./Pages/activity3/Activity3"
 import Activity4 from "./Pages/Activity4/Titan"
