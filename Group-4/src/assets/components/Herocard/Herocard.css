@@ -1,0 +1,33 @@
+.hero-card {
+  background-color: #1e1e2e;
+  border: 1px solid #44475a;
+  border-radius: 12px;
+  padding: 25px;
+  color: #f8f8f2;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  border-color: #50fa7b;
+}
+
+.hero-card h3 {
+  color: #50fa7b;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.hero-card p {
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.hero-card strong {
+  color: #8be9fd;
+}

@@ -1,7 +1,11 @@
-import Home from "./Landing Page/Home"
+import Activity4 from './Pages/Activity4/Titan';
 
-const App = () => {
-  return <Home />;
+function App() {
+  return (
+    <div className="App">
+      <Activity4 />
+    </div>
+  );
 }
 
 export default App;
