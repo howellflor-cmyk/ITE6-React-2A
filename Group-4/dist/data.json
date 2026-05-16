@@ -1,0 +1,25 @@
+[
+  { "id": 1,
+    "name": "Soyou",
+    "role": "Assassin",
+    "Specialty": "Initiator" 
+    },
+
+  { "id": 2,
+    "name": "Yin Sun-shin",
+    "role": "Marksman",
+    "Specialty": "Finisher/Damage" 
+  },
+
+  { "id": 3,
+    "name": "Gusion",
+    "role": "Assassin",
+    "Specialty": "Burst/Magic Damage" 
+  },
+
+  { "id": 4,
+    "name": "Lunox",
+    "role": "Mage", 
+    "Specialty": "Burst/Poke" 
+  }
+]
