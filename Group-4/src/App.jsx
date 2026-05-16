@@ -1,10 +1,21 @@
-import Activity4 from './Pages/Activity4/Titan';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import MCO from "./pages/MCO/MCO"
+import Activity1 from "./pages/activity1/Home"
+import Activity2 from "./pages/activity2/Moodswing"
+import Activity3 from "./pages/activity3/Activity3"
+import Activity4 from "./pages/activity4/Titan"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Activity4 />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MCO />} />
+        <Route path="/activity1" element={<Activity1 />} />
+        <Route path="/activity2" element={<Activity2 />} />
+        <Route path="/activity3" element={<Activity3 />} />
+        <Route path="/activity4" element={<Activity4 />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
