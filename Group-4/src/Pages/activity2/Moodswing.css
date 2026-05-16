@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.happy-bg {
+  background-color: #ffe066;
+}
+
+.sad-bg {
+  background-color: #6c757d;
+}
+
+.default-bg {
+  background-color: #000000;
+}
+
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #43c822;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+}

@@ -3,7 +3,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <main className="container">
-      <h1>2A Group 7 Members</h1>
+      <h1>2A Group 4 Members</h1>
       <p>This is our group landing page with four dedicated members.</p>
       <section>
                 <ul>
